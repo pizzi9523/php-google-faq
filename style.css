@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: #5F6368;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.navbar{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 10px 20px;
+    border-bottom: 1px solid #5F6368;
+
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #5F6368;
+    padding: 8px 0;
+}
+
+.navbar li a.active{
+    color: #3367D6;
+    border-bottom: 3px solid #3367D6;
+}
+
+main{
+    padding: 100px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
